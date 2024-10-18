@@ -298,7 +298,6 @@ main #about a{
     text-decoration: none;
     transition: none
     /* background: linear-gradient(135deg, rgba(48, 47, 46, 0.842), rgba(45, 44, 53, 0));  */
-    padding: 20px 0;
 }
     
 .ex-container a:hover{
