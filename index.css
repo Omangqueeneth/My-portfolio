@@ -123,6 +123,10 @@ aside .to-reach{
     font-weight: bold;
     cursor: pointer;
 }
+.cv a{
+    text-decoration: none;
+    color: rgb(15 23 42 );
+}
 
 
 main{
@@ -316,4 +320,3 @@ footer .footer-con{
     box-shadow: none
     }
 }
-
