@@ -184,6 +184,7 @@ main #about a{
     gap: 20px;
     padding: 0 30px;
     max-width:90%;
+    transition: transform 0.5s ease-in-out;
 }
 
 .pro-container .project-p{
@@ -193,7 +194,7 @@ main #about a{
 }
 
 .pro-container:hover .project-p{
-    color: rgb(8, 206, 206);;
+    color: rgb(8, 206, 206);
 }
 
 .project-container .pro-container .pro-lang{
@@ -208,6 +209,19 @@ main #about a{
     background-color: rgb(5, 60, 62); 
     border-radius: 20px;
 }
+
+.icon-container ion-icon {
+    font-size: 15px; 
+    transition: transform 0.3s ease-in-out; 
+    transform: rotate(90deg); 
+    color: rgb(8, 206, 206);
+    margin-left: 5px;
+  }
+  
+  .pro-container:hover ion-icon {
+    transform: rotate(90deg) translateY(-12px); 
+  }
+
 
 /* experience section */
 
