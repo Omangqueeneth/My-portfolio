@@ -264,15 +264,17 @@ main #about a{
 }
 
 /* footer section */
-
-footer .footer-con{
-    font-weight: 600;
-    font-size: smaller;
-    width: 100%;
+footer{
+    margin-top: 80px;
 }
 
-footer .footer-con .footer-p{
-    padding: 30px 0 30px 80px;
+footer .footer-con{
+    padding-bottom: 30px;
+    display: flex;
+    padding-left: 80px;
+    font-weight: 600;
+    font-size: smaller;
+
 }
 
 
